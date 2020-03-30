@@ -3,7 +3,7 @@ import os
 ENVIRONMENT = os.environ.get("ENVIRONMENT", "dev")
 DEBUG = ENVIRONMENT == "dev"
 HOST = '0.0.0.0' if ENVIRONMENT == "prod" else 'localhost'
-API_PORT = os.environ.get('API_PORT', 3000)
+API_PORT = os.environ.get('API_PORT', 5000)
 POSTGRES_DB = os.environ.get("POSTGRES_DB", "postgres")
 POSTGRES_USER = os.environ.get("POSTGRES_USER", "postgres")
 POSTGRES_PASSWORD = os.environ.get("POSTGRES_PASSWORD", "password")

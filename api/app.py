@@ -14,7 +14,7 @@ api = Blueprint('api', __name__)
 # Load the model
 model = LudwigModel.load('model')
 
-@app.route('/predict', methods = ['POST'])
+@api.route('/predict', methods = ['POST'])
 def predict():    
 	'''Predict sentiment category from text input'''
 
@@ -32,7 +32,7 @@ def predict():
 		# Return probability score of positive sentiment
 		return jsonify(float(pred_df['category_probabilities_2'][0]))
 
-@app.route('/review', methods = ['POST'])
+@api.route('/review', methods = ['POST'])
 def insert_review():
 	'''Insert review into database'''
 
@@ -56,4 +56,4 @@ def insert_review():
 app.register_blueprint(api, url_prefix='/api')
 
 if __name__ == '__main__':
-	app.run(debug = config.DEBUG, host = config.HOST, port = config.API_PORT)
+	app.run(debug = config.DEBUG, host = config.HOST)
