@@ -26,8 +26,8 @@ app = dash.Dash(
 
 app.title = 'Amazon Reviews'
 
-app.layout = html.Div(
-    [
+app.layout = html.Div([
+
         html.H1(
             [
                 "What do you think of this product?"
