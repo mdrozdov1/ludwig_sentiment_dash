@@ -1,8 +1,7 @@
 
 ## Real time sentiment analysis: Ludwig deep learning framework in action
 
-                                                  
-                                                  ![](sentiment_demo.gif)
+![](sentiment_demo.gif)
 
 
 ### App:
