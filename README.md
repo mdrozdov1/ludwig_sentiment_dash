@@ -1,5 +1,4 @@
-## Real time sentiment analysis:
-### Ludwig deep learning framework in action.
+## Real time sentiment analysis: Ludwig deep learning framework in action
 
 ![](sentiment_demo.gif)
 
@@ -9,7 +8,7 @@ http://ec2-35-173-57-74.compute-1.amazonaws.com:8050
 
 ##### Data:
 
-kaggle.com/bittlingmayer/amazonreviews
+https://www.kaggle.com/bittlingmayer/amazonreviews
 
 ##### Run the app locally:
 
@@ -23,5 +22,3 @@ docker-compose build
 docker-compose up
 ```
 App can be accessed at http://localhost:8050
-
-
