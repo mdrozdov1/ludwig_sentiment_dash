@@ -24,3 +24,12 @@ docker-compose build
 docker-compose up
 ```
 App can be accessed at http://localhost:8050
+
+------------------------
+*Please fork and add functionality*
+
+X Online learning / automatic model updating based on submitted reviews.
+
+X Page to display table of sample rows from DB.
+
+X Admin page + authentication
