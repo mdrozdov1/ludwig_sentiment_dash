@@ -1,16 +1,19 @@
+
 ## Real time sentiment analysis: Ludwig deep learning framework in action
 
-![](sentiment_demo.gif)
+                                                  
+                                                  ![](sentiment_demo.gif)
 
-##### App:
+
+### App:
 
 http://ec2-35-173-57-74.compute-1.amazonaws.com:8050
 
-##### Data:
+### Data:
 
 https://www.kaggle.com/bittlingmayer/amazonreviews
 
-##### Run the app locally:
+### Run the app locally:
 
 Clone repo:
 ```
