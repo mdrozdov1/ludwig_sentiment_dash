@@ -6,7 +6,7 @@
 
 ### App:
 
-http://ec2-35-173-57-74.compute-1.amazonaws.com:8050
+http://ec2-35-171-231-143.compute-1.amazonaws.com:8050
 
 ### Data:
 
