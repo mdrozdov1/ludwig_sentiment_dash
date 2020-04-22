@@ -15,6 +15,8 @@ try:
                 date DATE
                 );
             """)
+except Exception as e:
+    raise
 finally:
     conn.close()
 
@@ -28,5 +30,7 @@ def add_record(review_label, description, date):
                     """,
                     (review_label, description, date)
                     )
+    except Exception as e:
+        raise
     finally:
         return jsonify(conn.close())
